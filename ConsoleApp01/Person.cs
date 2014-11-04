@@ -9,7 +9,7 @@ namespace TempSamples.ConsoleApp01
 
 		public string LastName{
 			get;
-			set
+			set;
 		}
     }
 }
