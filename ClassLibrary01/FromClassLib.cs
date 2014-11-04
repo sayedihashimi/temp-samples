@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary01
 {
-    public class Class1
+    public class FromClassLib
     {
+        public string Name { get; set; }
+        public static DateTime GetDateNow() {
+            return DateTime.Now;
+        }
     }
 }
